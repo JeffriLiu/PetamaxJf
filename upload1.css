@@ -1,0 +1,21 @@
+.border {
+    border-radius: auto;
+    border: 2px solid #2a2d27;
+    padding: 0px; 
+    width: 650px;
+    height: 350px;
+    position: center;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.border > h3 {
+    text-align: center;
+    padding-top: 130px
+}
+.border1 {
+    background-color: rgb(215, 233, 233);
+    position: center;
+    margin: auto;
+    height: 400px;
+}
