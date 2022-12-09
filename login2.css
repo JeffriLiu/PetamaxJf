@@ -5,7 +5,7 @@
   /* config.css */
   
   :root {
-    --baseColor: #606468;
+    --baseColor: #61666c;
   }
   
   /* helpers/align.css */
@@ -18,8 +18,11 @@
   .grid {
     inline-size: 90%;
     margin-inline: auto;
-    max-inline-size: 20rem;
+    max-inline-size: 21rem;
+    text-align: center;
+    background-color:rgba(42, 36, 36, 0.5)
   }
+
   
   /* helpers/hidden.css */
   
@@ -77,8 +80,7 @@
   
   body {
     background: url(gambar\ street.jpg);
-    weight: 100px;
-    height: 200px;
+    background-size: cover;
     background-color: var(--bodyBackgroundColor);
     color: var(--bodyColor);
     font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
@@ -103,7 +105,7 @@
   
   a:focus,
   a:hover {
-    text-decoration: underline;
+    text-decoration-line: underline;
   }
   
   /* modules/form.css */
@@ -150,16 +152,16 @@
   
   :root {
     --loginBorderRadus: 0.25rem;
-    --loginColor: #eee;
+    --loginColor: rgb(210, 197, 197);
   
     --loginInputBackgroundColor: #3b4148;
     --loginInputHoverBackgroundColor: #434a52;
   
     --loginLabelBackgroundColor: #363b41;
   
-    --loginSubmitBackgroundColor: #ea4c88;
+    --loginSubmitBackgroundColor: #e6183ed8;
     --loginSubmitColor: #eee;
-    --loginSubmitHoverBackgroundColor: #d44179;
+    --loginSubmitHoverBackgroundColor: #6504049a;
   }
   
   .login {
@@ -210,14 +212,14 @@
   /* modules/text.css */
   
   p {
-    margin-block: 1.5rem;
+    margin-block: 1px;
   }
   
   .text--center {
     text-align: center;
-  }
-
-  .background{
-    background: url(gambar\ street.jpg);
+    color:#161313 ;
   }
   
+.form__signup {
+  background-color: #161313;
+}

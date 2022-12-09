@@ -42,7 +42,6 @@ if (isset($_POST['submit'])) {
 }
  
 ?>
-
 <link rel="stylesheet" href="./login2.css">
 <body class="align" style="background-color: #245280;">
 
@@ -75,8 +74,8 @@ if (isset($_POST['submit'])) {
         <p  class="text--center">Already a member? <a href="http://localhost/potret/login2.php">Sign in</a> <svg class="icon">
           <use xlink:href="#icon-arrow-right"></use>
         </svg></p>
-      </form>
-  
+      </form> 
+    
     </div>
   
     <svg xmlns="http://www.w3.org/2000/svg" class="icons">
